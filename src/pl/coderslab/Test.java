@@ -31,7 +31,7 @@ public class Test {
     public static String[][] loadDataToTab(String fileName) {
         Path dir = Paths.get(fileName);
         if (!Files.exists(dir)) {
-            System.out.println("File not exist.");
+            System.out.println("File not exist!");
             System.exit(0);
         }
 
