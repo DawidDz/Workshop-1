@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class Test {
 
-    static final String[] OPTIONS = {"add", "remove", "list", "exit", "-------------"};
+    static final String[] OPTIONS = {"add", "remove", "list", "exit", "------------"};
 
     public static void printTab(String[][] tab) {
         for (int i = 0; i < tab.length; i++) {
