@@ -62,6 +62,7 @@ public class Test {
                 case "exit":
                     System.out.print(ConsoleColors.RED);
                     System.out.println("Bye, bye.");
+                    System.exit(0);
                     break;
                 case "add":
                     break;
