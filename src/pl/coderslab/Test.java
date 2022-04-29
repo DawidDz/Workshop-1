@@ -31,7 +31,7 @@ public class Test {
     public static String[][] loadDataToTab(String fileName) {
         Path dir = Paths.get(fileName);
         if (!Files.exists(dir)) {
-            System.out.println("File not exist.");
+            System.out.println("File not exist!");
             System.exit(0);
         }
 
@@ -62,6 +62,7 @@ public class Test {
                 case "exit":
                     System.out.print(ConsoleColors.RED);
                     System.out.println("Bye, bye.");
+                    System.exit(0);
                     break;
                 case "add":
                     break;
