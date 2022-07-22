@@ -1,2 +1,2 @@
 # Workshop-1
-Warsztat 1, aplikacja konsolowa do zarządzania zadaniami: **Tasks**
+Workshop 1, console application to manage tasks: **Tasks**
